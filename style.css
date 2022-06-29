@@ -2,6 +2,7 @@
 body {
     margin: 200px auto;
     box-sizing: border-box;
+    font-family: 'Arial';
 }
 
 /* helps to center the form*/
