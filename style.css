@@ -1,6 +1,7 @@
 /* helps to center the form*/
 body {
-    margin-top: 150px;
+    margin: 200px auto;
+    box-sizing: border-box;
 }
 
 /* helps to center the form*/
@@ -11,9 +12,7 @@ body {
 }
 
 /* helps to center the form*/
-
 .center-form {
-    margin: 0 auto;
     border-radius: 7px;
     border: 3px solid #f1f1f1;
     float: left;
@@ -30,18 +29,18 @@ form p {
   
   /* Full-width inputs */
 input[type=email], input[type=password] {
-    width: 50%;
+    width: 97%;
+    padding: 6px;
     margin: 8px 0;
-    display: inline-block;
     border: 1px solid #ccc;
-    box-sizing: border-box;
+    border-radius: 2px;
 }
   
   /* Set a style for all buttons */
 button {
     background-color: rgb(255, 162, 3, 0.6);
-    border-radius: 10px;
-    padding: 14px 20px;
+    border-radius: 5px;
+    padding: 10px 0;
     margin: 8px 0;
     border: none;
     cursor: pointer;
@@ -55,7 +54,7 @@ button:hover {
   
   /* Add padding to containers */
 .container {
-    padding: 20px;
+    padding: 10px;
     margin: 2px;
 }
   
@@ -73,6 +72,7 @@ span.psw {
 /* centers the "New To Amazon" comment */
 legend {
     margin: 0 auto;
+    color: gray;
   }
 
 /* clears the border for fieldset */
@@ -81,6 +81,11 @@ fieldset {
     border-left: none;
     border-right: none;
     border-bottom: none;
+    padding-bottom: 32px;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* create your amazon account botton */
